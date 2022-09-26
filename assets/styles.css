@@ -1,0 +1,8 @@
+@font-face {
+  font-family: irsansdn;
+  src: url("./IRANSansDN.ttf");
+}
+
+body {
+  font-family: irsansdn, "Courier New", Courier, monospace;
+}

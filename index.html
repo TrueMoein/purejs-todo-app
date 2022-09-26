@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en" dir="rtl">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+  <link rel="stylesheet" href="./assets/styles.css">
+  <script src="./assets/scripts/todo-app.js" defer></script>
+  <title>Document</title>
+</head>
+
+<body>
+  <section class="vh-100" style="background-color: #e2d5de;">
+    <div class="container py-5 h-100">
+      <div class="row d-flex justify-content-center align-items-center h-100">
+        <div class="col col-xl-10">
+
+          <div class="card" style="border-radius: 15px;">
+            <div class="card-body p-5">
+
+              <h3 class="mb-3">کارهای مهم روزانه</h3>
+
+              <form id="form" class="d-flex justify-content-center align-items-center mb-4">
+                <div class="form-outline flex-fill">
+                  <input type="text" id="todoInput" class="form-control form-control-lg" />
+                  <label class="form-label" for="todoInput" style="color: gray; font-size: 14px">دیگه چه کاری مونده که
+                    باید
+                    انجام بدی؟</label>
+                </div>
+                <button type="submit" class="btn btn-primary btn-lg me-2" style="position: relative;
+                top: -16px;">افزودن</button>
+              </form>
+
+              <div id="todos">
+                <h3 class="text-center" style="color: gray;">می‌توانید لیست کارهای خود را اضافه کنید!</h3>
+              </div>
+
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </section>
+</body>
+
+</html>
